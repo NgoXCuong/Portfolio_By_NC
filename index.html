@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio By NC</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./image/NC.png" type="image/x-icon" />
+
+    <!-- ===== FONT === -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ===== ICON ======  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- === HEADER === -->
+    <header class="nav" id="nav">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="./image/NC.png" alt="Logo NC" />
+          <div class="logo-glow"></div>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Giới thiệu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Kỹ năng</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link">Dự án</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Liên hệ</a>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== END ====== -->
+
+    <!-- ===== HOME SECTION ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-background">
+        <div class="grid-overlay"></div>
+        <div class="floating-elements">
+          <div class="floading-element"></div>
+          <div class="floading-element"></div>
+          <div class="floading-element"></div>
+          <div class="floading-element"></div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="text-reveal">Hello, My name is</span>
+            <span class="name-highlight">Ngô Xuân Cường</span>
+          </h1>
+          <p class="hero-subtitle">
+            <span class="typing-text">Full Stack Developer</span>
+          </p>
+          <div class="hero-btns">
+            <button class="btn btn-primary">
+              Xem dự án
+              <span class="btn-glow"></span>
+            </button>
+            <button class="btn btn-secondary">
+              Liên hệ
+              <span class="btn-glow"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-container">
+          <div class="profile-glow"></div>
+          <div class="profile-image">
+            <div class="profile-placeholder">
+              <img src="./image/NC.png" alt="Profile Image" />
+            </div>
+          </div>
+          <div class="orbit-ring"></div>
+          <div class="orbit-ring orbit-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Giới thiệu</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              Tôi là một developer đam mê công nghệ và luôn khao khát học hỏi
+              những điều mới mẻ trong lĩnh vực phát triển phần mềm. Với kinh
+              nghiệm trong việc xây dựng các ứng dụng web và di động, tôi tự tin
+              vào khả năng tạo ra các giải pháp sáng tạo và hiệu quả. Chuyên môn
+              của tôi tập trung vào JavaScript, React, Node.js. Tôi luôn tìm
+              kiếm cơ hội để phát triển kỹ năng và đóng góp vào các dự án thú
+              vị.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">0</div>
+                <div class="stat-lable">Dự án hoàn thành</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">0</div>
+                <div class="stat-lable">Kinh nghiệm</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">0</div>
+                <div class="stat-lable">Hài lòng</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="code-block">
+              <div class="code-header">
+                <div class="code-btns">
+                  <span class="code-btn red"></span>
+                  <span class="code-btn yellow"></span>
+                  <span class="code-btn green"></span>
+                </div>
+              </div>
+              <div class="code-content">
+                <pre><code  class="typing-code">
+                    const developer = {
+                      name: "Ngô Xuân Cường",
+                      role: "Full Stack Developer",
+                      skills: [
+                        "JavaScript",
+                        "React",
+                        "Node.js",
+                        "HTML",
+                        "CSS"
+                      ],
+                      passion: "Tạo ra những trải nghiệm tuyệt vời cho người dùng",
+                      experience: "0 years",
+                      projectsCompleted: 0,
+                      satisfiedClients: 0,
+                    };
+                </code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILL SECTION ===== -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Kỹ Năng</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fa-brands fa-react"></i>
+                </div>
+                <span class="skill-name">React</span>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fa-brands fa-css"></i>
+                </div>
+                <span class="skill-name">CSS/SASS</span>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fa-brands fa-vuejs"></i>
+                </div>
+                <span class="skill-name">Vue.js</span>
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Backend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fa-brands fa-node"></i></div>
+                <span class="skill-name">Node.js</span>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+                <span class="skill-name">Java</span>
+                <div class="skill-level" data-level="75"></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fa-solid fa-database"></i>
+                </div>
+                <span class="skill-name">MongoDB</span>
+                <div class="skill-level" data-level="80"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fa-brands fa-git"></i></div>
+                <span class="skill-name">Git</span>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fa-brands fa-docker"></i>
+                </div>
+                <span class="skill-name">Docker</span>
+                <div class="skill-level" data-level="70"></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fa-brands fa-aws"></i></div>
+                <span class="skill-name">AWS</span>
+                <div class="skill-level" data-level="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECT SECTION ===== -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Dự Án Nổi Bật</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <button class="project-btn">Xem Chi Tiết</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <p class="project-description">
+                Nền tảng thương mại điện tử hiện đại với React và Node.js
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <button class="project-btn">Xem Chi Tiết</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Task Management App</h3>
+              <p class="project-description">
+                Ứng dụng quản lý công việc với giao diện trực quan
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <button class="project-btn">Xem Chi Tiết</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AI Chat Bot</h3>
+              <p class="project-description">
+                Chatbot thông minh sử dụng machine learning
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Flask</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Liên Hệ</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Hãy Cùng Tạo Nên Điều Tuyệt Vời</h3>
+            <p>
+              Tôi luôn sẵn sàng thảo luận về các dự án mới và cơ hội hợp tác
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <span>email@example.com</span>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <span>+84 123 456 789</span>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <span>Hà Nội, Việt Nam</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-github"></i>GitHub</a
+              >
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
+              >
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i>Facebook</a
+              >
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-tiktok"></i>TicTok</a
+              >
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Tên của bạn" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email" required />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Tin nhắn" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Gửi Tin Nhắn
+                <span class="btn-glow"></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Portfolio. Thiết kế bởi Ngô Xuân Cường 💕</p>
+      </div>
+    </footer>
+  </body>
+</html>

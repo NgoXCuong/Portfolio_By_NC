@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #00d4ff;
+  --secondary-color: #ff6b35;
+  --accent-color: #7c3aed;
+  --bg-dark: #0a0a0f;
+  --bg-card: #1a1a2e;
+  --text-primary: #fff;
+  --text-secondary: #b3b3b3;
+  --gradient-primary: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%);
+  --gradient-secondary: linear-gradient(135deg, #ff6b35 0%, #f093fb 100%);
+  --shadow-glow: 0 0 30px rgba(0, 212, 255, 0.3);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 2rem;
+}
