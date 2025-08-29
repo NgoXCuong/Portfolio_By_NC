@@ -548,3 +548,91 @@ section {
 .typing-code {
   color: var(--text-secondary);
 }
+
+/* === SKILLS SECTION === */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.skill-category {
+  background: var(--bg-card);
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: var(--transition);
+}
+
+.skill-category:hover {
+  scale: 1.05;
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(17, 215, 255, 0.5);
+}
+
+.category-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: var(--primary-color);
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.skill-icon {
+  font-size: 24px;
+  width: 40px;
+  text-align: center;
+}
+
+.skill-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.skill-level {
+  width: 100px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-level::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 3px;
+  width: 0;
+  transition: width 1s ease-out;
+}
+
+.skill-level[data-level="90"]::after {
+  width: 90%;
+}
+
+.skill-level[data-level="85"]::after {
+  width: 85%;
+}
+
+.skill-level[data-level="80"]::after {
+  width: 80%;
+}
+
+.skill-level[data-level="75"]::after {
+  width: 75%;
+}
+
+.skill-level[data-level="70"]::after {
+  width: 70%;
+}
