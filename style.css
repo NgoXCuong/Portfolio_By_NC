@@ -12,9 +12,9 @@
   --accent-color: #7c3aed;
   --bg-dark: #0a0a0f;
   --bg-card: #1a1a2e;
-  --bg-header: rgba(10, 10, 15, 0.9);
+  --bg-header: rgba(12, 12, 31, 0.3);
   --text-primary: #fff;
-  --text-secondary: #b3b3b3;
+  --text-secondary: #fff0f0;
   --gradient-primary: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%);
   --gradient-secondary: linear-gradient(135deg, #ff6b35 0%, #f093fb 100%);
   --shadow-glow: 0 0 30px rgba(0, 212, 255, 0.3);
@@ -54,7 +54,7 @@ body {
 .nav-container {
   min-width: 1200px;
   margin: 0px auto;
-  padding: 0px 32px;
+  padding: 0px 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
