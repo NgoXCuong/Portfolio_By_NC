@@ -774,7 +774,7 @@ section {
 
 .contact-info p {
   color: var(--text-secondary);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
   margin-bottom: 32px;
 }
@@ -799,13 +799,13 @@ section {
 
 .social-links {
   display: flex;
-  gap: 16px;
+  gap: 10px;
 }
 
 .social-link {
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 10px 24;
+  padding: 10px 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 25px;
   transition: var(--transition);
@@ -816,6 +816,8 @@ section {
   color: var(--primary-color);
   border-color: var(--primary-color);
   box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+  scale: 1.1;
+  transform: translateY(-10px);
 }
 
 .contact-form {
