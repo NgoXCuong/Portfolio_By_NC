@@ -758,14 +758,14 @@ section {
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 64px;
   align-items: start;
 }
 
 .contact-info h3 {
-  font-size: 1.8rem;
+  font-size: 22px;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   background: var(--gradient-primary);
   background-clip: text;
   -webkit-background-clip: text;
@@ -774,38 +774,38 @@ section {
 
 .contact-info p {
   color: var(--text-secondary);
-  font-size: 1.1rem;
+  font-size: 12px;
   line-height: 1.6;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .contact-items {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  gap: 16px;
+  margin-bottom: 16px;
   color: var(--text-secondary);
 }
 
 .contact-icon {
-  font-size: 1.2rem;
+  font-size: 14px;
   width: 30px;
   text-align: center;
 }
 
 .social-links {
   display: flex;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .social-link {
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 0.8rem 1.5rem;
+  padding: 10px 24;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 25px;
   transition: var(--transition);
@@ -820,13 +820,13 @@ section {
 
 .contact-form {
   background: var(--bg-card);
-  padding: 2rem;
+  padding: 32px;
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .form-group input,
@@ -835,9 +835,9 @@ section {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 1rem;
+  padding: 16px;
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 16px;
   transition: var(--transition);
 }
 
